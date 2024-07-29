@@ -1,11 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="input.css">
     <title>JBECP GOOGLERS</title>
 </head>
+
 <body>
-    
+    <header class="fixed realtive bg-white lg:px-40 flex flex:grow justify-between w-full border-b-2 h-40">
+        <!--jbecp logo-->
+        <img class="size-40" src="img/jbecp.png" alt="jbecp-logo">
+
+        <!--Main nav-->
+        <nav class=" mt-16 mb-16 px-48  bg-inherit">
+            <ul class="flex flex-grow w-full gap-8  lg:text-sm font-semibold">
+                <li class="hover:border-b"><a href="">HOME</a></li>
+                <li class="hover:border-b"><a href="">ABOUT</a></li>
+                <li class="hover:border-b"><a href="">PROJECT</a></li>
+                <li class="hover:border-b"><a href="">SERVICES</a></li>
+                <!--blog dropdown-->
+                <li class="hover:border-b relative">
+                    <button class="flex relative group focus:outline-none">
+                        BLOG
+                        <svg class="w-2.5 h-2.5 ms-3 mt-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            fill="none" viewBox="0 0 10 6">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="m1 1 4 4 4-4" />
+                        </svg>
+
+                        <!--dropdown menu-->
+
+                        <div
+                            class=" abslute hidden group-fucos:block top-full min-w-full w-max bg-white shadow:md mt-1 rounded-md transition">
+                            <ul class="text-left border rounded">
+                                <li class="px-4 py-1 hover:bg-gray-100 border-b"><a href="">lorem</a></li>
+                                <li class="px-4 py-1 hover:bg-gray-100 border-b"><a href="">ipsum</a></li>
+                                <li class="px-4 py-1 hover:bg-gray-100 border-b"><a href="">amet</a></li>
+                            </ul>
+                        </div>
+
+
+                    </button>
+
+                </li>
+                <!--services dropdown-->
+                <li class="hover:border-b relative">
+                    <button class="flex relative group focus:outline-none">
+                        PAGES
+                        <svg class="w-2.5 h-2.5 ms-3 mt-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            fill="none" viewBox="0 0 10 6">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="m1 1 4 4 4-4" />
+                        </svg>
+
+                        <!--dropdown menu-->
+
+                        <div
+                            class=" abslute hidden group-fucos:block top-full min-w-full w-max bg-white shadow:md mt-1 rounded-md transition">
+                            <ul class="text-left border rounded">
+                                <li class="px-4 py-1 hover:bg-gray-100 border-b"><a href="">lorem</a></li>
+                                <li class="px-4 py-1 hover:bg-gray-100 border-b"><a href="">ipsum</a></li>
+                                <li class="px-4 py-1 hover:bg-gray-100 border-b"><a href="">amet</a></li>
+                            </ul>
+                        </div>
+
+
+                    </button>
+
+                </li>
+                <li class="hover:border-b"><a href="">CONTACT</a></li>
+
+            </ul>
+        </nav>
+        <!--Call to action-->
+        <button
+            class=" bg-transparent border-black border-2 my-12 px-14  text-lg hover:translate-y-0.5 hover:shadow-md">GET
+            IN
+            TOUCH</button>
+
+    </header>
+    <main>
+
+        <!--banner-->
+        <section class=" pt-4">
+            <div class="absolute inset-x-0 bottom-0 flex justify-center pb-4">
+                <button
+                    class=" uppercase border-2 font-semi text-xl text-white border-white bg-transparent px-10 py-3 hover:translate-x-0.5 hover:shadow-sm hover:border-blue-500 hover:text-blue-500">
+                    SEE OUR PROJECTS
+                </button>
+            </div>
+            <img class="w-full" src="img/jbecp banner.jpg" alt="jbecp-banner">
+
+        </section>
+    </main>
+    <footer></footer>
+
 </body>
+
 </html>
